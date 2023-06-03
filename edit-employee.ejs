@@ -1,0 +1,17 @@
+<div class="mb-3">
+    <label for="input-name" class="form-label">UserName</label>
+    <input type="text" class="form-control" id="input-name" name="name" value=<%=user.name%>>
+</div>
+
+<div class="mb-3">
+    <label for="input-email" class="form-label">Email address</label>
+    <input type="email" readonly class="form-control" id="input-email" placeholder="name@example.com" name="email" value=<%=user.email%>>
+</div>
+<div class="mb-3">
+    <label for="input-password" class="form-label">Password</label>
+    <input type="text" class="form-control" id="input-password" name="password" value=<%=user.password%>>
+</div>
+<div class="mb-3">
+    <label for="input-admin" class="form-label">Admin</label>
+    <input type="text" class="form-control" id="input-admin" name="admin" value=<%=user.isAdmin%>>
+</div>
